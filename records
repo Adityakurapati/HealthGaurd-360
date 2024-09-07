@@ -1,0 +1,43 @@
+HealthGuard360/
+│
+├── client/                            # React frontend
+│   ├── src/
+│   │   ├── components/                # Contains React components
+│   │   │   ├── Appointment/
+│   │   │   │   ├── AppointmentForm.css
+│   │   │   │   └── AppointmentForm.js
+│   │   │   ├── Contact/
+│   │   │   │   ├── contact.css
+│   │   │   │   └── Contact.js
+│   │   │   ├── DiseaseAnalyze/
+│   │   │   │   ├── AlphabetSearch.js
+│   │   │   │   ├── disease.css
+│   │   │   ├── Doctor/
+│   │   │   │   ├── DoctorCard.js
+│   │   │   │   ├── DoctorSearch.css
+│   │   │   │   └── DoctorSearch.js
+│   │   │   ├── Header/
+│   │   │   │   ├── Header.css
+│   │   │   │   └── Header.js
+│   │   │   ├── NearbyHospital/
+│   │   │   │   ├── HospitalFinder.js
+│   │   │   │   └── hospitals.css
+│   │   │   ├── News/
+│   │   │   │   ├── news.css
+│   │   │   │   └── NewsUpdates.js
+│   │   │   └── ...                    # Other components and files
+│   │   ├── App.js
+│   │   ├── App.css
+│   │   └── index.js
+│   └── ...                            # Other folders like public, node_modules, etc.
+│
+├── server/                            # Flask backend
+│   ├── credentials/                   # Folder for credentials (possibly sensitive data)
+│   ├── venv/                          # Python virtual environment
+│   ├── db.py                          # Python file, likely for database-related code
+│   ├── run.py                         # Entry point to start the Flask server
+│   └── .gitignore                     # Git ignore file to exclude certain files/folders from version control
+│
+├── .gitignore                         # Main Git ignore file for the entire project
+├── README.md                          # Main Readme file for the project
+└── .env                               # Environment variables (if any)
